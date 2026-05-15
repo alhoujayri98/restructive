@@ -1,0 +1,123 @@
+.createAccount {
+    width: 100%;
+    text-align: center;
+    font-size: 72px;
+    @media (max-width: 1080px) {
+        flex-direction: column;
+    }
+}
+.color1 {
+    color: #1e3638;
+}
+
+.color2 {
+    color: #df0134;
+}
+
+.createAccount{
+    padding-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    justify-self: center;
+}
+#username_label{
+    grid-area: username_label;
+}
+#username_input{
+    grid-area: username_input;
+}
+#email_label{
+    grid-area: email_label;
+}
+#email_input{
+    grid-area: email_input;
+}
+#phone_number_label{
+    grid-area: phone_number_label;
+}
+#phone_number_input{
+    grid-area: phone_number_input;
+}
+#password_label{
+    grid-area: password_label;
+}
+#password_input{
+    grid-area: password_input;
+}
+#confirm_password_label{
+    grid-area: confirm_password_label;
+}
+#confirm_password_input{
+    grid-area: confirm_password_input;
+}
+#role{
+    grid-area: role;
+}
+#user_role{
+    grid-area: user_role;
+}
+#admin_role{
+    grid-area: admin_role;
+}
+#user_label{
+    grid-area: user_label;
+}
+#admin_label{
+    grid-area: admin_label;
+}
+input{
+
+    padding: 10px;
+    margin: 5px 20px;
+}
+
+#register_form {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr;
+    background-color: #d9d9d9;
+    grid-template-areas:
+        "username_label username_input"
+        "email_label email_input"
+        "phone_number_label phone_number_input"
+        "password_label password_input"
+        "confirm_password_label confirm_password_input"
+
+        "role"
+        "user_role user_label"
+        "admin_role admin_label"
+    ;
+    padding: 5%;
+    text-align: center;
+}
+#btn3, #btn4 {
+    background: none;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#image10 {
+    margin: 30px;
+}
+#buttons2_group {
+    justify-content: center;
+    grid-template-columns: 1fr;
+
+}
+.buttons2 {
+    position: relative;
+    display: grid;
+    @media (max-width: 1080px) {
+        flex-direction: column;
+    }
+    justify-content: center;
+    align-items: center;
+    transform: translate(0%, -180%);
+}
+#btn3{
+    margin: 10px;
+}
+#btn4{
+    margin: 10px;
+}

@@ -261,8 +261,7 @@ footer {
     padding: 40px 100vw;
     text-align: center;
     @media screen and (max-width: 1080px) {
-        padding: 20px 100vw;
-        
+        padding: 20px 100vw; 
     }
     
 }
